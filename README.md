@@ -1,4 +1,8 @@
-# Laboration3
+# Laboration3 - Angular I
+
+Det här projektet är en del av kursen Programmering i TypeScript vid Mittuniversitetet.
+
+Webbplatsen byggs med Angular och kommer att innehålla tre undersidor, en enhetsomvandlare och responsiv design.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.27.
 
