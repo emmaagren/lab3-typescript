@@ -1,0 +1,53 @@
+/* Huvudbehållare för enhetsomvandlaren */
+.converter {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Rubriker */
+.converter h2 {
+    color: #245c60;
+    margin-bottom: 1rem;
+}
+
+.converter h3 {
+    margin-top: 2rem;
+    color: #245c60;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+/* Etiketter för inmatningsfälten */
+.converter label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+}
+
+/* Inmatningsfält */
+.converter input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Tydlig markering när ett fält är aktivt */
+.converter input:focus {
+    outline: 2px solid #245c60;
+    border-color: #245c60;
+}
+
+/* Anpassning för mindre skärmar */
+@media (max-width: 600px) {
+    .converter {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}

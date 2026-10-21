@@ -1,0 +1,41 @@
+/* Huvudbehållare för sidan Om arbetet */
+.about {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Sidans huvudrubrik */
+.about h2 {
+    color: #245c60;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Underrubriker */
+.about h3 {
+    color: #245c60;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Brödtext */
+.about p {
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+}
+
+/* Anpassning för mobil */
+@media (max-width: 600px) {
+    .about {
+        margin: 1rem auto;
+        padding: 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+    }
+}
