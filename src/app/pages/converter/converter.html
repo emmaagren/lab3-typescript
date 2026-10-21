@@ -1,1 +1,36 @@
-<p>converter works!</p>
+<section class="converter">
+    <h2>Konvertera enheter</h2>
+
+    <p>
+        Här kan du omvandla mellan meter och fot 
+        samt Celsius och Fahrenheit.
+    </p>
+
+    <h3>Längd</h3>
+
+    <label for="meters">Meter:</label>
+    <input type="number" id="meters" [(ngModel)]="meters">
+
+    <p>Fot: {{ meters * 3.28084 }}</p>
+
+    <h3>Temperatur</h3>
+
+    <label for="celsius">Celsius:</label>
+    <input type="number" id="celsius" [(ngModel)]="celsius">
+
+    <p>Fahrenheit: {{ (celsius * 9 / 5) + 32 }}</p>
+
+    <h3>Fot till meter</h3>
+
+    <label for="feet">Fot:</label>
+    <input type="number" id="feet" [(ngModel)]="feet">
+
+    <p>Meter: {{ feet / 3.28084 }}</p>
+
+    <h3>Fahrenheit till Celsius</h3>
+
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit">
+
+    <p>Celsius: {{ (fahrenheit - 32) * 5 / 9 }}</p>
+</section>
