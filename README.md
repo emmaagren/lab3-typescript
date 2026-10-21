@@ -1,63 +1,88 @@
 # Laboration3 - Angular I
 
-Det här projektet är en del av kursen Programmering i TypeScript vid Mittuniversitetet.
+Det här projektet är skapat som en del av kursen Programmering i TypeScript vid Mittuniversitetet.
 
-Webbplatsen byggs med Angular och kommer att innehålla tre undersidor, en enhetsomvandlare och responsiv design.
+## Publicerad webbplats
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.27.
 
-## Development server
 
-To start a local development server, run:
+## Beskrivning
+
+Webbplatsen är en enhetsomvandlare byggd med Angular och TypeScript. Användaren kan omvandla mellan olika längd- och temperaturenheter.
+
+## Funktioner
+
+- Omvandling från meter till fot.
+- Omvandling från fot till meter
+- Omvandling från Celsius till Fahrenheit
+- Omvandling från Fahrenheit till Celsius
+- Resultat som uppdateras direkt vid inmatning
+- Responsiv design för mobil och dator
+- Navigering mellan tre undersidor
+
+## Tekniker
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Angular Router
+- Angular FormsModule och ngModel
+- Angular DecimalPipe
+
+## Webbplatsens struktur
+
+Webbplatsen består av tre sidor:
+
+**Startsida:** Introduktion till enhetsomvanlaren samt en informationskomponent.
+**Konvertera:** Fyra inmatningsfält för omvandling av längd och temperatur.
+**Om arbetet:** Beskrivning av hur laborationen har genomförts och vilka slutsatser som dragits.
+Projektet använder separata Angular-komponenter för sidorna och en återanvändbar informationskomponent.
+
+## Installation och körning
+
+För att köra projektet lokalt behöver Node.js och npm vara installerade.
+
+Klona projektet:
+
+```bash
+git clone https://github.com/emmaagren/lab3-typescript.git
+```
+
+Gå till projektmappen:
+
+```bash
+cd lab3-typescript
+```
+
+Installera beroenden:
+
+```bash
+npm install
+```
+
+Starta utvecklingsservern:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Öppna sedan http://localhost:4200/ i webbläsaren.
 
-## Code scaffolding
+## Produktionsbygge
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Skapa en optimerad version av webbplatsen:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Github
 
-## Running unit tests
+https://github.com/emmaagren/lab3-typescript.git
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## Författare
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Emma Ågren
+Student
+Mittuniversitetet

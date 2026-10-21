@@ -11,26 +11,26 @@
     <label for="meters">Meter:</label>
     <input type="number" id="meters" [(ngModel)]="meters">
 
-    <p>Fot: {{ meters * 3.28084 }}</p>
+    <p>Fot: {{ (meters * 3.28084) | number:'1.0-2' }}</p>
 
     <h3>Temperatur</h3>
 
     <label for="celsius">Celsius:</label>
     <input type="number" id="celsius" [(ngModel)]="celsius">
 
-    <p>Fahrenheit: {{ (celsius * 9 / 5) + 32 }}</p>
+    <p>Fahrenheit: {{ ((celsius * 9 / 5) + 32) | number:'1.0-2' }}</p>
 
     <h3>Fot till meter</h3>
 
     <label for="feet">Fot:</label>
     <input type="number" id="feet" [(ngModel)]="feet">
 
-    <p>Meter: {{ feet / 3.28084 }}</p>
+    <p>Meter: {{ (feet / 3.28084) | number:'1.0-2' }}</p>
 
     <h3>Fahrenheit till Celsius</h3>
 
     <label for="fahrenheit">Fahrenheit:</label>
     <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit">
 
-    <p>Celsius: {{ (fahrenheit - 32) * 5 / 9 }}</p>
+    <p>Celsius: {{ ((fahrenheit - 32) * 5 / 9) | number:'1.0-2' }}</p>
 </section>
