@@ -4,7 +4,7 @@ Det här projektet är skapat som en del av kursen Programmering i TypeScript vi
 
 ## Publicerad webbplats
 
-
+https://lab3-typescript.netlify.app/
 
 ## Beskrivning
 
